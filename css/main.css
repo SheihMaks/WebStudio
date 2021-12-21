@@ -899,9 +899,7 @@ body {
 
 .hero {
   min-width: 320px;
-  width: 480px;
   max-width: 1600px;
-  height: 400px;
   text-align: center;
   outline: solid 1px var(--main-border-color);
   margin-left: auto;
@@ -912,6 +910,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    max-width: 480px;
+  }
 }
 
 @media screen and (min-width: 768px) {
