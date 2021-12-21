@@ -914,13 +914,13 @@ body {
 
 @media screen and (min-width: 480px) {
   .hero {
-    max-width: 1600px;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 1600px;
+    max-width: 100%;
   }
 }
 
@@ -928,6 +928,7 @@ body {
   .hero {
     height: 600px;
     padding: 200px 0;
+    max-width: 100%;
   }
 }
 
