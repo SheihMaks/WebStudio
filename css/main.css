@@ -72,8 +72,6 @@ img {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   font-family: "Roboto", sans-serif;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -1124,6 +1122,7 @@ body {
 
 .team__photo {
   display: inline-block;
+  width: 100%;
 }
 
 .team__about {
