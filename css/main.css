@@ -142,9 +142,15 @@ body {
 .logo__page {
   line-height: 1.19;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 0.03em;
   font-family: var(--second-font);
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__page {
+    font-size: 26px;
+  }
 }
 
 .logo__page .logo__web {
@@ -169,9 +175,16 @@ body {
 }
 
 .logo__page--dark {
-  padding-top: 24px;
+  display: inline-flex;
+  padding: 16px 0;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .logo__page--dark {
+    padding: 26px 0;
+  }
 }
 
 .logo__page--dark:focus, .logo__page--dark:hover {
