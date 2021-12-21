@@ -903,7 +903,7 @@ body {
   height: 100%;
   text-align: center;
   outline: solid 1px var(--main-border-color);
-  margin-left: 0 auto;
+  margin: 0 auto;
   padding: 118px 0;
   background-color: var(--second-background-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-solutions.jpg");
@@ -914,13 +914,13 @@ body {
 
 @media screen and (min-width: 480px) {
   .hero {
-    max-width: 768px;
+    max-width: 1600px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 1200px;
+    max-width: 1600px;
   }
 }
 
