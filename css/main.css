@@ -898,7 +898,8 @@ body {
 }
 
 .hero {
-  max-width: 768px;
+  min-width: 320px;
+  max-width: 767px;
   height: 100%;
   text-align: center;
   outline: solid 1px var(--main-border-color);
