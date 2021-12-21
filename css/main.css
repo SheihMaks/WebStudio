@@ -72,6 +72,7 @@ img {
 }
 
 body {
+  width: 100%;
   font-family: "Roboto", sans-serif;
   color: var(--default-color);
   background-color: var(--background-color);
