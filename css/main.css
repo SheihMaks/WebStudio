@@ -899,6 +899,7 @@ body {
 
 .hero {
   min-width: 320px;
+  width: 480px;
   max-width: 1600px;
   height: 400px;
   text-align: center;
