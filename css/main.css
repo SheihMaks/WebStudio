@@ -1153,6 +1153,7 @@ body {
   background-color: var(--second-background-color);
   min-width: 320px;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1199px) {
