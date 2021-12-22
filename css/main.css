@@ -717,6 +717,7 @@ body {
   transform: translate(-50%, -50%);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 93.75vw;
+  height: 76.5vh;
   background-color: white;
   padding: 40px;
   border-radius: 4px;
@@ -1253,17 +1254,28 @@ body {
 .modal__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   color: var(--second-title-color);
   margin-bottom: 12px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal__title {
+    line-height: 1.17;
+  }
+}
+
 .modal_label-input {
   font-size: 12px;
-  line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--second-border-color);
+}
+
+@media screen and (min-width: 768px) {
+  .modal_label-input {
+    line-height: 1.16;
+  }
 }
 
 .modal__input-container {
