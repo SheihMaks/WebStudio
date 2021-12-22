@@ -1,7 +1,7 @@
 .hero {
   min-width: 320px;
   max-width: 1600px;
-  height: 400px;
+  height: 100%;
   @media screen and (min-width: 480px) {
     max-width: 768px;
   }
@@ -13,12 +13,11 @@
     height: 600px;
     padding: 200px 0;
   }
-
   text-align: center;
   outline: solid 1px var(--main-border-color);
   margin-left: auto;
   margin-right: auto;
-  padding: 118px 0;
+  padding: 118px 15px;
   background-color: var(--second-background-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
