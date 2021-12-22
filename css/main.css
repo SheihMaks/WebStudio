@@ -1332,7 +1332,12 @@ body {
 }
 
 .modal__checkbox-policy {
-  padding-left: 12px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__checkbox-policy {
+    padding-left: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
