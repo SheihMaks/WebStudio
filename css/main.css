@@ -809,10 +809,16 @@ body {
 }
 
 .checkbox-policy__link-policy {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .checkbox-policy__link-policy {
+    font-size: 12px;
+  }
 }
 
 .checkbox-policy__span {
