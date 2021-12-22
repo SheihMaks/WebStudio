@@ -926,7 +926,7 @@ body {
 .hero {
   min-width: 320px;
   max-width: 1600px;
-  height: 100%;
+  height: auto;
   text-align: center;
   outline: solid 1px var(--main-border-color);
   margin-left: auto;
