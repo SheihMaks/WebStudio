@@ -732,7 +732,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .backdrop__modal {
-    width: 33vw;
+    width: auto;
   }
 }
 
