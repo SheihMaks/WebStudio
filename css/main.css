@@ -783,20 +783,15 @@ body {
 
 .modal__custom-check {
   width: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 15px;
   border: solid 2px var(--main-border-color);
   border-radius: 2px;
   margin-right: 8.38px;
   background-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-width 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (min-width: 1200px) {
-  .modal__custom-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 .checkbox-policy__input:checked + .modal__custom-check {
