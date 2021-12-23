@@ -828,6 +828,7 @@ body {
 .section__filters {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -839,8 +840,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .section__filters {
-    flex-wrap: nowrap;
     justify-content: center;
+    flex-wrap: nowrap;
   }
 }
 
