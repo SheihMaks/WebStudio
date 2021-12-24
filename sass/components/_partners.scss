@@ -5,25 +5,23 @@
   align-items: center;
   margin: 0 -15px -30px -15px;
   @media screen and (min-width: 1200px) {
-    display: flex;
-    margin: 0 -15px 0 0;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
   }
 }
 .partners_items {
-  width: 50%;
-  min-width: 50%;
   height: 92px;
-  flex-basis: calc(100% / 2 - 30px);
   margin: 0 0 30px 0;
   padding: 0 15px;
+  @media screen and (max-width: 767px) {
+    width: 50%;
+    min-width: 50%;
+  }
   @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 3 - 30px);
-    width: 226px;
-    @media screen and (min-width: 1200px) {
-      flex-basis: calc(100% / 6 - 30px);
-      width: 170px;
-      margin-bottom: 0;
-    }
+    width: 29.43%;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
   }
 }
 .partners__link {
