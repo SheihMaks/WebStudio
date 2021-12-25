@@ -525,6 +525,12 @@ body {
   padding: 0 15px;
 }
 
+@media screen and (max-width: 767px) {
+  .partners_items {
+    min-width: 50%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .partners_items {
     width: 33.33%;
