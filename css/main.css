@@ -519,21 +519,15 @@ body {
 }
 
 .partners_items {
+  width: 50%;
   height: 92px;
   margin: 0 0 30px 0;
   padding: 0 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .partners_items {
-    width: 50%;
-    min-width: 50%;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .partners_items {
-    width: 29.43%;
+    width: 33.33%;
   }
 }
 

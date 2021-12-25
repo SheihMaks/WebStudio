@@ -10,15 +10,13 @@
   }
 }
 .partners_items {
+  width: 50%;
   height: 92px;
   margin: 0 0 30px 0;
   padding: 0 15px;
-  @media screen and (max-width: 767px) {
-    width: 50%;
-    min-width: 50%;
-  }
+
   @media screen and (min-width: 768px) {
-    width: 29.43%;
+    width: 33.33%;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 0;
