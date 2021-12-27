@@ -198,8 +198,9 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   height: auto;
+  overflow: scroll;
   background-color: white;
   z-index: 5;
 }
@@ -212,6 +213,11 @@ body {
   .open-menu-btn {
     display: none;
   }
+}
+
+.close-menu-btn {
+  top: 21px;
+  right: 25px;
 }
 
 .mob-menu__list {
