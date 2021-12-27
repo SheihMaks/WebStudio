@@ -1090,19 +1090,19 @@ body {
 }
 
 .skills__item--attention::before {
-  background-image: url(../images/antenna.svg);
+  background-image: url(../images/svg/antenna.svg);
 }
 
 .skills__item--punctuality::before {
-  background-image: url(../images/clock.svg);
+  background-image: url(../images/svg/clock.svg);
 }
 
 .skills__item--planning::before {
-  background-image: url(../images/diagram.svg);
+  background-image: url(../images/svg/diagram.svg);
 }
 
 .skills__item--hitech::before {
-  background-image: url(../images/astronaut.svg);
+  background-image: url(../images/svg/astronaut.svg);
 }
 
 .skills__title {
