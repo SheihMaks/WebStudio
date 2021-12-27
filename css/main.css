@@ -252,7 +252,7 @@ body {
 }
 
 .mob-menu__contacts {
-  margin-top: 37.93%;
+  margin-top: 302px;
 }
 
 .mob-menu__telephone {
@@ -274,11 +274,17 @@ body {
 .mob-menu__mail {
   display: inline-flex;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   margin-bottom: 64px;
   color: var(--main-text-color);
+}
+
+@media screen and (min-width: 420px) {
+  .mob-menu__mail {
+    font-size: 24px;
+  }
 }
 
 .mob-menu__social {
