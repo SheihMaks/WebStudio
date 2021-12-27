@@ -254,7 +254,7 @@ body {
   color: var(--accent-color);
 }
 
-@media screen and (min-height: 460px) {
+@media screen and (min-height: 400px) {
   .mob-menu_contacts-container {
     position: absolute;
     bottom: 0;
@@ -265,7 +265,7 @@ body {
   }
 }
 
-@media screen and (min-height: 460px) and (min-width: 420px) {
+@media screen and (min-height: 400px) and (min-width: 420px) {
   .mob-menu_contacts-container {
     padding-left: 8.33%;
   }
