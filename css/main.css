@@ -239,7 +239,7 @@ body {
 .mob-menu__link {
   font-weight: 500;
   font-size: 32px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
