@@ -64,7 +64,10 @@
 }
 
 .mob-menu__contacts {
-  margin-top: 302px;
+  margin-top: 200px;
+  @media (min-width: 420px) {
+    margin-top: 302px;
+  }
 }
 
 .mob-menu__telephone {
