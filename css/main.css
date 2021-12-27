@@ -209,7 +209,13 @@ body {
 }
 
 .mob-menu__container {
-  padding: 10% 0 10% 8.33%;
+  padding: 8% 0 6% 8.33%;
+}
+
+@media screen and (min-width: 420px) {
+  .mob-menu__container {
+    padding: 10% 0 10% 8.33%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -270,7 +276,7 @@ body {
 }
 
 .mob-menu__social:not(:last-child) {
-  border-right: solid 1px rgba(33, 33, 33, 0.2);
+  border-right: solid 1px rgba(59, 48, 48, 0.2);
 }
 
 .social-list__item {
@@ -280,10 +286,16 @@ body {
 
 .social__link-menu {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 420px) {
+  .social__link-menu {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 768px) {
