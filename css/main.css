@@ -253,9 +253,18 @@ body {
   color: var(--accent-color);
 }
 
-@media screen and (min-height: 460px) {
+.mob-menu_contacts-container {
+  padding-left: 4.5%;
+}
+
+@media screen and (min-width: 420px) {
   .mob-menu_contacts-container {
     padding-left: 8.33%;
+  }
+}
+
+@media screen and (min-height: 460px) {
+  .mob-menu_contacts-container {
     position: absolute;
     bottom: 0;
     left: 0;

@@ -49,8 +49,11 @@
 }
 
 .mob-menu_contacts-container {
-  @media screen and (min-height: 460px) {
+  padding-left: 4.5%;
+  @media screen and (min-width: 420px) {
     padding-left: 8.33%;
+  }
+  @media screen and (min-height: 460px) {
     position: absolute;
     bottom: 0;
     left: 0;
