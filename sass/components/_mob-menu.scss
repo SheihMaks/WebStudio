@@ -2,7 +2,6 @@
   position: fixed;
   top: 0;
   width: 100vw;
-  min-height: 100vh;
   max-width: 100%;
   max-height: 100vh;
   height: auto;
@@ -93,13 +92,13 @@
 .social-list__item {
   padding: 0 10px;
 }
+
 .social__link-menu {
   font-weight: 500;
   font-size: 14px;
   @media screen and (min-width: 420px) {
     font-size: 18px;
   }
-
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
