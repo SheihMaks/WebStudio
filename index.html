@@ -124,6 +124,10 @@
               <div class="our-work__description">
                 <img
                   src="./images/studio-img/our-work1.jpg"
+                  srcset="
+                    ./images/studio-img/our-work1.jpg    1x,
+                    ./images/studio-img/our-work1-2x.jpg 2x
+                  "
                   class="our-work__img"
                   alt="Image 1"
                   width="370"
@@ -137,6 +141,10 @@
               <div class="our-work__description">
                 <img
                   src="./images/studio-img/our-work2.jpg"
+                  srcset="
+                    ./images/studio-img/our-work2.jpg    1x,
+                    ./images/studio-img/our-work2-2x.jpg 2x
+                  "
                   class="our-work__img"
                   alt="Image 2"
                   width="370"
@@ -150,6 +158,10 @@
               <div class="our-work__description">
                 <img
                   src="./images/studio-img/our-work3.jpg"
+                  srcset="
+                    ./images/studio-img/our-work3.jpg    1x,
+                    ./images/studio-img/our-work3-2x.jpg 2x
+                  "
                   class="our-work__img"
                   alt="Image 3"
                   width="370"
@@ -167,12 +179,35 @@
           <h2 class="section__heading">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__card">
-              <img
-                src="./images/studio-img/team-photo1-mob.jpg"
-                class="team__photo"
-                alt="Photo 1"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo1-desktop.jpg   1x,
+                    ./images/studio-img/team-photo1-desktop2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo1-tab.jpg   1x,
+                    ./images/studio-img/team-photo1-tab2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo1-mob.jpg   1x,
+                    ./images/studio-img/team-photo1-mob2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/studio-img/team-photo1-mob.jpg"
+                  class="team__photo"
+                  alt="Photo 1"
+                  width="450"
+                />
+              </picture>
               <div class="team__about">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__job">Product Designer</p>
@@ -220,12 +255,35 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                src="./images/studio-img/team-photo2-mob.jpg"
-                class="team__photo"
-                alt="Photo 2"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo2-desktop.jpg   1x,
+                    ./images/studio-img/team-photo2-desktop2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo2-tab.jpg   1x,
+                    ./images/studio-img/team-photo2-tab2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo2-mob.jpg   1x,
+                    ./images/studio-img/team-photo2-mob2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/studio-img/team-photo2-mob.jpg"
+                  class="team__photo"
+                  alt="Photo 2"
+                  width="270"
+                />
+              </picture>
               <div class="team__about">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__job">Frontend Developer</p>
@@ -273,12 +331,35 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                src="./images/studio-img/team-photo3-mob.jpg"
-                class="team__photo"
-                alt="Photo 3"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo3-desktop.jpg   1x,
+                    ./images/studio-img/team-photo3-desktop2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo3-tab.jpg   1x,
+                    ./images/studio-img/team-photo3-tab2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo3-mob.jpg   1x,
+                    ./images/studio-img/team-photo3-mob2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/studio-img/team-photo3-mob.jpg"
+                  class="team__photo"
+                  alt="Photo 3"
+                  width="270"
+                />
+              </picture>
               <div class="team__about">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__job">Marketing</p>
@@ -326,12 +407,35 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                src="./images/studio-img/team-photo4-mob.jpg"
-                class="team__photo"
-                alt="Photo 4"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo4-desktop.jpg   1x,
+                    ./images/studio-img/team-photo4-desktop2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo4-tab.jpg   1x,
+                    ./images/studio-img/team-photo4-tab2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/studio-img/team-photo4-mob.jpg   1x,
+                    ./images/studio-img/team-photo4-mob2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/studio-img/team-photo4-mob.jpg"
+                  class="team__photo"
+                  alt="Photo 4"
+                  width="270"
+                />
+              </picture>
               <div class="team__about">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__job">UI Designer</p>
