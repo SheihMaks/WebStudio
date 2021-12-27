@@ -253,6 +253,13 @@ body {
   color: var(--accent-color);
 }
 
+.mob-menu_contacts-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 .mob-menu__contacts {
   margin-top: 302px;
 }
