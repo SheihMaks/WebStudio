@@ -207,6 +207,8 @@ body {
 }
 
 .mob-menu__container {
+  max-width: 767px;
+  margin: 0 auto;
   padding: 8% 0 8% 4.5%;
 }
 
@@ -272,7 +274,7 @@ body {
 }
 
 .mob-menu__contacts {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 @media (min-width: 420px) {
