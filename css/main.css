@@ -200,7 +200,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  padding: 8% 0 10% 4.5%;
+  padding: 8% 0 0 4.5%;
   background-color: var(--background-color);
   z-index: 5;
 }
@@ -290,6 +290,7 @@ body {
   display: flex;
   max-width: 100%;
   margin: 0 -10px;
+  padding-bottom: 48px;
 }
 
 .social-list__item {
