@@ -361,7 +361,7 @@ body {
   width: 100%;
   height: 4px;
   left: 0;
-  bottom: -2px;
+  bottom: -1px;
   display: inline-block;
   background-color: var(--active-page-color);
   border-radius: 2px;
