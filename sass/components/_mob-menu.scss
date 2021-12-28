@@ -107,6 +107,12 @@
   @media screen and (min-width: 450px) {
     padding-bottom: 48px;
   }
+  .social-list__item {
+    padding: 0 10px;
+    &:not(:last-child) {
+      border-right: solid 1px rgba(59, 48, 48, 0.2);
+    }
+  }
 }
 
 .social__link-menu {
