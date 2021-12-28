@@ -213,7 +213,7 @@ body {
   }
 }
 
-.mob-menu__container {
+.page__mob-menu .mob-menu__container {
   max-width: 767px;
   margin: 0 auto;
   height: 100%;
@@ -237,7 +237,7 @@ body {
   margin-bottom: -32px;
 }
 
-.mob-menu__item {
+.mob-menu__list .mob-menu__item {
   margin-bottom: 32px;
 }
 
@@ -298,12 +298,12 @@ body {
   margin: 0 -10px;
 }
 
-.social-list__item:not(:last-child) {
-  border-right: solid 1px rgba(59, 48, 48, 0.2);
-}
-
 .social-list__item {
   padding: 0 10px;
+}
+
+.social-list__item:not(:last-child) {
+  border-right: solid 1px rgba(59, 48, 48, 0.2);
 }
 
 .social__link-menu {
