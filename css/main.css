@@ -196,11 +196,8 @@ body {
 
 .page__mob-menu {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: scale(1) rotate(0);
-  transform: translate(-50%, -50%);
-  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  top: 0;
+  transition: opacity 1000ms, visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100vw;
   height: 100vh;
   overflow: auto;
@@ -221,11 +218,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.page__mob-menu.is-hidden {
-  transform: scale(1.5) rotate(180deg) translate(500px);
-  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-menu-btn {
