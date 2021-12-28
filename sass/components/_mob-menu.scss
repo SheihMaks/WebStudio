@@ -22,8 +22,6 @@
   }
 }
 
-
-
 .close-menu-btn {
   top: 21px;
   right: 25px;
@@ -47,27 +45,6 @@
     color: var(--accent-color);
   }
 }
-
-.mob-menu_bottom {
-  //*  @media screen and (min-height: 460px) {
-  //    position: absolute;
-  //  bottom: 0;
-  //left: 0;
-  //    width: 100%;
-  //   padding-left: 4.5%;
-  //   padding-bottom: 48px;
-  //    @media (min-width: 420px) {
-  //     padding-left: 8.33%;
-  //   }
-  //  }
-}
-
-//.mob-menu__contacts {
-//  margin-top: 150px;
-//  @media (min-width: 420px) {
-// margin-top: 302px;
-//}
-//}
 
 .mob-menu__telephone {
   display: inline-flex;
