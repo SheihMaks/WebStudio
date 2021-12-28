@@ -231,11 +231,7 @@ body {
   right: 25px;
 }
 
-.mob-menu__list {
-  margin-bottom: -32px;
-}
-
-.mob-menu__list .mob-menu__item {
+.mob-menu__item {
   margin-bottom: 32px;
 }
 
