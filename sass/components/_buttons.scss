@@ -75,7 +75,7 @@
   height: 40px;
   cursor: pointer;
   border: none;
-  background-color: none;
+  background-color: var(--background-color);
   &:hover {
     color: var(--accent-color);
   }
