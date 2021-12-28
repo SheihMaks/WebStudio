@@ -200,14 +200,14 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  padding: 8% 0 0 4.5%;
+  padding: 6% 0 0 4.5%;
   background-color: var(--background-color);
   z-index: 5;
 }
 
 @media screen and (min-width: 420px) {
   .page__mob-menu {
-    padding: 10% 0 10% 8.33%;
+    padding: 10% 0 0 8.33%;
   }
 }
 
