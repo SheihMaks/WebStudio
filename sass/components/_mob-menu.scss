@@ -7,7 +7,7 @@
   // min-height: 100%;
   overflow: auto;
   padding: 6% 0 0 4.5%;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     padding: 10% 0 0 8.33%;
   }
   background-color: var(--background-color);
@@ -40,7 +40,7 @@
 .mob-menu__link {
   font-weight: 500;
   font-size: 30px;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     font-size: 40px;
   }
   line-height: 1.17;
@@ -78,7 +78,7 @@
   display: inline-flex;
   font-weight: 500;
   font-size: 24px;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     font-size: 34px;
   }
   line-height: 1.17;
@@ -91,7 +91,7 @@
   display: inline-flex;
   font-weight: 500;
   font-size: 14px;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     font-size: 24px;
   }
   line-height: 1.17;
@@ -105,7 +105,7 @@
   max-width: 100%;
   margin: 0 -10px;
   padding-bottom: 55px;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     padding-bottom: 48px;
   }
 }
@@ -120,7 +120,7 @@
 .social__link-menu {
   font-weight: 500;
   font-size: 14px;
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 450px) {
     font-size: 18px;
   }
   line-height: 1.22;
