@@ -250,7 +250,7 @@ body {
   }
 }
 
-.mob-menu__link .mob-menu__link:hover {
+.mob-menu__link:hover {
   color: var(--accent-color);
 }
 
