@@ -227,7 +227,13 @@ body {
 }
 
 .open-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   border: none;
+  background-color: none;
 }
 
 @media screen and (min-width: 768px) {
