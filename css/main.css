@@ -202,7 +202,7 @@ body {
   max-height: 100vh;
   min-height: 100%;
   overflow: auto;
-  padding: 8% 0 8% 4.5%;
+  padding: 8% 0 10% 4.5%;
   background-color: var(--background-color);
   z-index: 5;
 }
