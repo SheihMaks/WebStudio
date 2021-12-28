@@ -290,7 +290,13 @@ body {
   display: flex;
   max-width: 100%;
   margin: 0 -10px;
-  padding-bottom: 48px;
+  padding-bottom: 55px;
+}
+
+@media screen and (min-width: 440px) {
+  .mob-menu__social {
+    padding-bottom: 48px;
+  }
 }
 
 .social-list__item {
